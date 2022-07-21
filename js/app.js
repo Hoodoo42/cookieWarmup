@@ -1,9 +1,9 @@
 
-Cookies.set(`click_count`, 0);
+Cookies.set(`clickCount`, 0);
 
 function countClicks(details){
-    let clicked = Cookies.get(`click_count`)
-    console.log(`click_count`);
+    let clicked = Cookies.get(`clickCount`)
+    console.log(`clickCount`);
     // Cookies.set(`click_count`, 0)++;
 
 }
